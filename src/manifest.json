@@ -7,7 +7,9 @@
   "permissions": [
     "activeTab",
     "<all_urls>",
-    "*://*/*"
+    "*://*/*",
+    "storage",
+    "tabs"
   ],
   "icons": {
     "16": "icons/16.png",
@@ -31,5 +33,6 @@
   "options_ui": {
     "page": "options.html",
     "browser_style": true
-  }
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjf7QI9Mdo657acjjhIsnOQrAwK43N/3zKFy0cDv8a9f241PH6gBBes73rQt/J9aJH9IKewNJtd+B95m2eDpAv4+ud6Hu+0uStvksTNk6LVk6UZXJ5OgeSI57gKUvi+R9+uL2k7Z9E5lEKVfKXDMq33zY8t3MNNLiDg9Ndp4ALOElcGnlxNOmwOwzbtZsBl/2JDoxXF8MYxPehcAxB3caYqViZ2reDVqVmotB45zxpNmzoxV2IskJzxBicy5/D0W79Cwt/p79Q4bVNwfWucKw8ug3r2aXzEoS7FGvgTIqT74gKlfWlh7SCeu1xuDGG0tVMHWkpXGWVu95qIMOKZBWxwIDAQAB"
 }
